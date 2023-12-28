@@ -9,7 +9,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 public class CheckoutPage extends BasePage{
     Faker faker = new Faker();
-    /////
+    ///////
     @FindBy(xpath = "//legend[text()='Your Personal Details']/..//label[text()='First Name']/..//input")
     public WebElement input_FirstName_Your_Personal_Details;
     @FindBy(xpath = "//legend[text()='Your Personal Details']/..//label[text()='Last Name']/..//input")
